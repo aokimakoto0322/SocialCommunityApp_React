@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import Hello from './compornents/Hello'
 import Name from './compornents/Name'
+import Message from './compornents/Message';
+import ContainerSample from './compornents/ContainerSample'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -17,6 +19,8 @@ root.render(
         <Route path='/' element={<App />} />
         <Route path='/hello' element={<Hello />} />
         <Route path='/name' element={<Name />} />
+        <Route path='/message' element={<Message />} />
+        <Route path='/container' element={<ContainerSample />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

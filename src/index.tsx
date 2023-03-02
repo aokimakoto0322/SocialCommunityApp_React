@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Hello from './compornents/Hello'
+import Name from './compornents/Name'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -15,6 +16,7 @@ root.render(
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/hello' element={<Hello />} />
+        <Route path='/name' element={<Name />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

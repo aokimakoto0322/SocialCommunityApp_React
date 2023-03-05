@@ -6,6 +6,7 @@ import Hello from './compornents/Hello'
 import Name from './compornents/Name'
 import Message from './compornents/Message';
 import ContainerSample from './compornents/ContainerSample'
+import ContextSample from './compornents/ContextSample'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -21,6 +22,7 @@ root.render(
         <Route path='/name' element={<Name />} />
         <Route path='/message' element={<Message />} />
         <Route path='/container' element={<ContainerSample />} />
+        <Route path='/context' element={<ContextSample />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

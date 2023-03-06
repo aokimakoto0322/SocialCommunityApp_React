@@ -7,6 +7,7 @@ import Name from './compornents/Name'
 import Message from './compornents/Message';
 import ContainerSample from './compornents/ContainerSample'
 import ContextSample from './compornents/ContextSample'
+import UseStateSample from './compornents/UseStateSample'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -23,6 +24,7 @@ root.render(
         <Route path='/message' element={<Message />} />
         <Route path='/container' element={<ContainerSample />} />
         <Route path='/context' element={<ContextSample />} />
+        <Route path='/usestate' element={<UseStateSample />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

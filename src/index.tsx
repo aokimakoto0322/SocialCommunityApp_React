@@ -9,6 +9,7 @@ import ContainerSample from './compornents/ContainerSample'
 import ContextSample from './compornents/ContextSample'
 import UseStateSample from './compornents/UseStateSample'
 import UseReducerSample from './compornents/UseReducerSample'
+import UseMemoSample from './compornents/UseMemoSample'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -27,6 +28,7 @@ root.render(
         <Route path='/context' element={<ContextSample />} />
         <Route path='/usestate' element={<UseStateSample />} />
         <Route path='/usereducer' element={<UseReducerSample />} />
+        <Route path='/usememo' element={<UseMemoSample />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

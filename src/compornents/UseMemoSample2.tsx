@@ -31,7 +31,7 @@ const UseMemoSample = () => {
             <p>UseMemoSample</p>
             <div>
                 <input value={text} onChange={onChangeInput} />
-                <button onClick={onClickButton} />
+                <button onClick={onClickButton}>Add</button>
             </div>
             <div>
                 {items.map((item, index) => (

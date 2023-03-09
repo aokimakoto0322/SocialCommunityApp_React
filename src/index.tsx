@@ -11,6 +11,7 @@ import UseStateSample from './compornents/UseStateSample'
 import UseReducerSample from './compornents/UseReducerSample'
 import UseMemoSample from './compornents/UseMemoSample'
 import UseCallBackSample from './compornents/UseCallBackSample'
+import UseMemoSample2 from './compornents/UseMemoSample2'
 import reportWebVitals from './reportWebVitals';
 import { Route, BrowserRouter, Routes} from 'react-router-dom';
 
@@ -31,6 +32,7 @@ root.render(
         <Route path='/usereducer' element={<UseReducerSample />} />
         <Route path='/usememo' element={<UseMemoSample />} />
         <Route path='/usecallback' element={<UseCallBackSample />} />
+        <Route path='/usememo2' element={<UseMemoSample2 />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
